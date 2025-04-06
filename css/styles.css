@@ -20,11 +20,12 @@ root:{
 }
 
 body{
-    font-family: var(--main-type);
+    font-family: "Roboto", sans-serif;
     font-family: 16px;
     line-height: 24px;
     letter-spacing: 2%;
-    color: var(--main-text-color);
+    color: #434455;
+    background-color: #FFFFFF;
 }
 /* header */
 
@@ -32,26 +33,19 @@ header{
     background-color: var(--modal-background);
 }
 
-nav a {
+.logo {
+    font-family: "Roboto", sans-serif;;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 117%;
+    letter-spacing: 0.03em;
     text-decoration: none;
-}
-.logo-name-one{
-    font-family: var(--subsidiary-type);
-    font-weight: 700;
-    font-size: 18px;
-    line-height: 117%;
-    letter-spacing: 0.03em;
     text-transform: uppercase;
-    color: var(--primary-brand-color);
+    color: #4d5ae5;
 }
-
-.logo-name-two{
-    font-family: var(--subsidiary-type);
-    font-weight: 700;
-    font-size: 18px;
-    line-height: 117%;
-    letter-spacing: 0.03em;
-}     
+.logo-name{
+    color: #2e2f42;
+}
 
 .navigator-head a {
     text-decoration: none;
@@ -59,7 +53,7 @@ nav a {
     font-size: 16px;
     line-height: 150%;
     letter-spacing: 0.02em;
-    color: var(--modal-overlay-color);
+    color: #2e2f42;
 }
 
 .navigator-head a:hover{
@@ -96,7 +90,7 @@ nav a {
     background-color: #2e2f42;
 }
 
-h1{
+.section-one-h1{
     font-weight: 700;
     font-size: 56px;
     line-height: 107%;
@@ -106,31 +100,37 @@ h1{
     }
 
 .button-servise{
+    font-family: "Roboto", sans-serif;
     font-weight: 500;
     font-size: 16px;
     line-height: 150%;
     letter-spacing: 0.04em;
     color: #fff;
     background-color:#4d5ae5;
+    cursor: pointer;
     }
 
 .button-servise:hover{
     background-color: #404bbf;
 }
 
+.button-servise:active{
+    background-color: #404BBF;
+}
+
 /* end-section-effective */
 
 /* section-priciplec */
 
-.principles h3{
+.principles-h3 h3{
     font-weight: 500;
     font-size: 20px;
     line-height: 120%;
     letter-spacing: 0.02em;
-    color: var(--dark-color);
+    color: #434455;
     }
 
-.principles p{
+.principles-p p{
     font-weight: 400;
     font-size: 16px;
     line-height: 150%;
@@ -141,26 +141,32 @@ h1{
 /* end-section-priciplec */
 
 /* section-team */
-.team h2{
-    font-weight: 700;
+
+.team{
+    background-color: #F4F4FD;
+}
+.our-team {
     font-size: 36px;
     line-height: 111%;
     letter-spacing: 0.02em;
     text-align: center;
     color: #2e2f42;
+    text-transform: capitalize;
     }
 
-.team h3{
-    font-weight: 700;
-    font-size: 36px;
-    line-height: 111%;
+.our-team-ul{
+    background-color: #FFFFFF;
+}
+
+.our-team-h3 h3{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 120%;
     letter-spacing: 0.02em;
-    text-align: center;
     color: #2e2f42;
-    }
+}
 
-.team p{
-    font-weight: 400;
+.our-team-p p{
     font-size: 16px;
     line-height: 150%;
     letter-spacing: 0.02em;
@@ -172,16 +178,16 @@ h1{
 
 /* section-portfolio */
 
-.portfolio h2{
-    font-weight: 700;
+.portfolio {
     font-size: 36px;
     line-height: 111%;
     letter-spacing: 0.02em;
     text-align: center;
     color: #2e2f42;
+    text-transform: capitalize;
 }
 
-.portfolio h3{
+.portfolio-h3 h3{
     font-weight: 500;
     font-size: 20px;
     line-height: 120%;
@@ -189,7 +195,7 @@ h1{
     color: #2e2f42;
 }
 
-.portfolio p{
+.portfolio-p p{
     font-weight: 400;
     font-size: 16px;
     line-height: 150%;
