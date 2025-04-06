@@ -47,7 +47,7 @@ header{
     color: #2e2f42;
 }
 
-.navigator-head a {
+.navigator-head > a {
     text-decoration: none;
     font-weight: 500;
     font-size: 16px;
@@ -56,7 +56,7 @@ header{
     color: #2e2f42;
 }
 
-.navigator-head a:hover,
+.navigator-head > a:hover,
 .link-active:active{
     color: #404bbf;
 }
@@ -68,12 +68,12 @@ header{
     letter-spacing: 0.02em;
 }
 
-.email-and-tel a {
+.email-and-tel > a {
     text-decoration: none;
     color: var(--main-text-color);
 }
 
-.email-and-tel a:hover {
+.email-and-tel > a:hover {
     color: #404bbf;
 }
 
@@ -116,7 +116,7 @@ header{
 
 /* section-priciplec */
 
-.principles-h h3{
+.principles-h > h3{
     font-weight: 500;
     font-size: 20px;
     line-height: 120%;
@@ -124,7 +124,7 @@ header{
     color: #434455;
     }
 
-.principles-p p{
+.principles-p > p{
     font-weight: 400;
     font-size: 16px;
     line-height: 150%;
@@ -152,7 +152,7 @@ header{
     background-color: #FFFFFF;
 }
 
-.our-team-h h3{
+.our-team-h > h3{
     font-weight: 500;
     font-size: 20px;
     line-height: 120%;
@@ -160,7 +160,7 @@ header{
     color: #2e2f42;
 }
 
-.our-team-p p{
+.our-team-p > p{
     font-size: 16px;
     line-height: 150%;
     letter-spacing: 0.02em;
@@ -181,7 +181,7 @@ header{
     text-transform: capitalize;
 }
 
-.portfolio-h h3{
+.portfolio-h > h3{
     font-weight: 500;
     font-size: 20px;
     line-height: 120%;
@@ -189,7 +189,7 @@ header{
     color: #2e2f42;
 }
 
-.portfolio-p p{
+.portfolio-p > p{
     font-weight: 400;
     font-size: 16px;
     line-height: 150%;
