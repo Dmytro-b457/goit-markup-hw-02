@@ -34,7 +34,7 @@ header{
 }
 
 .logo {
-    font-family: "Roboto", sans-serif;;
+    font-family: "Raleway", sans-serif;;
     font-weight: 700;
     font-size: 18px;
     line-height: 117%;
@@ -56,10 +56,7 @@ header{
     color: #2e2f42;
 }
 
-.navigator-head a:hover{
-    color: #404bbf;
-}
-
+.navigator-head a:hover,
 .link-active:active{
     color: #404bbf;
 }
@@ -90,7 +87,7 @@ header{
     background-color: #2e2f42;
 }
 
-.section-one-h1{
+.section-one-h-one{
     font-weight: 700;
     font-size: 56px;
     line-height: 107%;
@@ -110,12 +107,9 @@ header{
     cursor: pointer;
     }
 
-.button-servise:hover{
-    background-color: #404bbf;
-}
-
+.button-servise:hover,
 .button-servise:active{
-    background-color: #404BBF;
+    background-color: #404bbf;
 }
 
 /* end-section-effective */
