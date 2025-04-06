@@ -116,7 +116,7 @@ header{
 
 /* section-priciplec */
 
-.principles-h3 h3{
+.principles-h h3{
     font-weight: 500;
     font-size: 20px;
     line-height: 120%;
@@ -129,7 +129,7 @@ header{
     font-size: 16px;
     line-height: 150%;
     letter-spacing: 0.02em;
-    color: var(--main-text-color);
+    color: #434455;
     }
 
 /* end-section-priciplec */
@@ -152,7 +152,7 @@ header{
     background-color: #FFFFFF;
 }
 
-.our-team-h3 h3{
+.our-team-h h3{
     font-weight: 500;
     font-size: 20px;
     line-height: 120%;
@@ -181,7 +181,7 @@ header{
     text-transform: capitalize;
 }
 
-.portfolio-h3 h3{
+.portfolio-h h3{
     font-weight: 500;
     font-size: 20px;
     line-height: 120%;
@@ -202,11 +202,14 @@ header{
 
 /* section-footer */
     .footer{
+        background-color: #2e2f42;
+    }
+
+    .footer-p{
     font-weight: 400;
     font-size: 16px;
     line-height: 150%;
     letter-spacing: 0.02em;
     color: #f4f4fd;
-    background-color: #2E2F42;
     }
 /* end-section-footer */
