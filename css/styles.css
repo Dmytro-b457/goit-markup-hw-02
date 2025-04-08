@@ -57,6 +57,7 @@ header{
 }
 
 .navigator-head  a:hover,
+.navigator-head a:focus,
 .link-active:active{
     color: #404bbf;
 }
@@ -70,10 +71,11 @@ header{
 
 .email-and-tel  a {
     text-decoration: none;
-    color: var(--main-text-color);
+    color: #434455);
 }
 
-.email-and-tel  a:hover {
+.email-and-tel a:hover,
+.email-and-tel a:focus {
     color: #404bbf;
 }
 
@@ -116,15 +118,15 @@ header{
 
 /* section-priciplec */
 
-.principles-h h3{
+.principles-h {
     font-weight: 500;
     font-size: 20px;
     line-height: 120%;
     letter-spacing: 0.02em;
-    color: #434455;
+    color: #2e2f42;
     }
 
-.principles-p p{
+.principles-p {
     font-weight: 400;
     font-size: 16px;
     line-height: 150%;
@@ -148,11 +150,11 @@ header{
     text-transform: capitalize;
     }
 
-.our-team-ul{
+.our-team-li {
     background-color: #FFFFFF;
 }
 
-.our-team-h h3{
+.our-team-h {
     font-weight: 500;
     font-size: 20px;
     line-height: 120%;
@@ -160,7 +162,7 @@ header{
     color: #2e2f42;
 }
 
-.our-team-p p{
+.our-team-p {
     font-size: 16px;
     line-height: 150%;
     letter-spacing: 0.02em;
