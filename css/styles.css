@@ -21,7 +21,7 @@ root:{
 
 body{
     font-family: "Roboto", sans-serif;
-    font-family: 16px;
+    font-size: 16px;
     line-height: 24px;
     letter-spacing: 2%;
     color: #434455;
@@ -62,7 +62,7 @@ header{
     color: #404bbf;
 }
 
-.addsess-head{
+.address-head{
  font-style: normal;  
 }
 
