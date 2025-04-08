@@ -13,7 +13,7 @@ header{
     background-color: #fcfcff;
 }
 
-.logo {
+.logo-header {
     font-family: "Raleway", sans-serif;;
     font-weight: 700;
     font-size: 18px;
@@ -23,7 +23,7 @@ header{
     text-transform: uppercase;
     color: #4d5ae5;
 }
-.logo-name{
+.logo-header-span{
     color: #2e2f42;
 }
 
@@ -186,7 +186,6 @@ header{
 /* section-footer */
 .footer{
         background-color: #2e2f42;
-        color: #f4f4fd;
     }
 
     .logo-footer{
@@ -198,6 +197,10 @@ header{
     text-decoration: none;
     text-transform: uppercase;
     color: #4d5ae5;
+}
+
+.logo-footer-span{
+    color: #f4f4fd;
 }
 
 .footer-p{
