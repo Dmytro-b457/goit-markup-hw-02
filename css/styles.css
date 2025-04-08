@@ -36,8 +36,8 @@ header{
     color: #2e2f42;
 }
 
-.navigator-head:hover,
-.navigator-head:focus,
+.link-active:hover,
+.link-active:focus,
 .link-active:active{
     color: #404bbf;
 }
@@ -186,6 +186,7 @@ header{
 /* section-footer */
 .footer{
         background-color: #2e2f42;
+        color: #f4f4fd;
     }
 
     .logo-footer{
@@ -197,7 +198,6 @@ header{
     text-decoration: none;
     text-transform: uppercase;
     color: #4d5ae5;
-    background-color: #f4f4fd;
 }
 
 .footer-p{
