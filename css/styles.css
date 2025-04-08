@@ -74,8 +74,8 @@ header{
     color: #434455;
 }
 
-.email-and-tel a:hover,
-.email-and-tel a:focus {
+.email-and-tel:hover,
+.email-and-tel:focus {
     color: #404bbf;
 }
 
@@ -183,7 +183,7 @@ header{
     text-transform: capitalize;
 }
 
-.portfolio-h h3{
+.portfolio-h {
     font-weight: 500;
     font-size: 20px;
     line-height: 120%;
@@ -191,7 +191,7 @@ header{
     color: #2e2f42;
 }
 
-.portfolio-p p{
+.portfolio-p {
     font-weight: 400;
     font-size: 16px;
     line-height: 150%;
